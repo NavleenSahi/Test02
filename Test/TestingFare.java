@@ -54,4 +54,17 @@ class TestingFare {
 			assertEquals(5.50,fare,0.0);
 			
 		}
+		
+		//R5
+		@Test
+		void test4() {
+			String[] from1 = new String[] {"Finch"};
+			String[] to1 =new String[] {"Sheppard"};
+			String[] from2 = new String[] {"Sheppard"};
+			String[] to2 =new String[] {"Finch"};
+			
+			Double fare = f.calculateTotal(from1, to2);
+			assertEquals(6.00,fare,0.0);
+			
+		}
 }
