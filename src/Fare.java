@@ -17,7 +17,10 @@ public class Fare {
 			return 3.00;
 		}
 		
-		return 0.0;
+		if(from[0].contains("Finch") && to[1].contains("Sheppard") && from[1].contains("Leslie") && to[0].contains("Don Mills")) {
+			
+		}
+		return 5.50;
 	}
 	
 	
