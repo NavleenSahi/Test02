@@ -10,7 +10,7 @@ public class Fare {
 		}
 		
 		if(from[0].contains("Sheppard") && to[0].contains("Finch Station")) {
-			return 2.50;
+			return 3.00;
 		}
 		
 		return 0.0;
