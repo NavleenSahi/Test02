@@ -26,5 +26,14 @@ class TestingFare {
 		Double fare =f.calculateTotal(from1,to1);
 		assertEquals(3.0,fare,0.0);
 	}
+	
+	@Test
+	void test2() {
+		String[] from1 = new String[] {"Don Mills"};
+		String[] to1 = new String[] {"Finch Station"};
+		
+		Double fare =f.calculateTotal(from1,to1);
+		assertEquals(3.0,fare,0.0);
+	}
 
 }

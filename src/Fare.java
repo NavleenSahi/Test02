@@ -13,6 +13,8 @@ public class Fare {
 			return 3.00;
 		}
 		
+		
+		
 		return 0.0;
 	}
 	
