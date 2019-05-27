@@ -8,6 +8,11 @@ public class Fare {
 		if(from[0].contains("Leslie") && to[0].contains("Don Mills")) {
 			return 2.50;
 		}
+		
+		if(from[0].contains("Sheppard") && to[0].contains("Finch Station")) {
+			return 2.50;
+		}
+		
 		return 0.0;
 	}
 	
